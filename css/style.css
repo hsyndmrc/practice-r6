@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header.header {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(122, 122, 122, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+header img {
+  width: 110px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+header a {
+  display: inline-block;
+  float: right;
+  padding-top: 48px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: green;
+}
+
+nav.links {
+  text-align: center;
+  /* margin-top: 20px; */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(122, 122, 122, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  position: sticky;
+  top: 0rem;
+  z-index: 1;
+}
+
+nav.links a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 15px;
+  /* border: 2px solid red; */
+  width: 80px;
+  padding: 7.5px;
+  color: white;
+}
+
+nav.links a:hover {
+  color: black;
+}
+
+main.container section.section {
+  color: black;
+  position: relative;
+}
+
+main.container section div.hero {
+  position: absolute;
+  color: aliceblue;
+  top: 15%;
+  left: 20%;
+}
+
+main.container section img {
+  width: 100%;
+}
+
+main.container section div.hero a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin-top: 12px;
+  color: aliceblue;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+main.container section div.hero a:hover {
+  background-color: black;
+  color: white;
+}
+
+section.section-i i {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: gray;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 5.5px;
+  color: white;
+}
+
+section.section-i i:hover {
+  cursor: crosshair;
+  outline: 2px dotted white;
+  outline-offset: 3px;
+  background-color: white;
+  color: black;
+}
+
+section.section-par {
+  background-color: black;
+  color: white;
+}
+
+section.section-par p {
+  padding: 10px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+section.section-par h1,
+h2 {
+  color: rgb(179, 179, 179);
+  text-align: center;
+  border: 2px solid rgb(177, 177, 177);
+}
